@@ -1,0 +1,126 @@
+.textbox{
+    display:block;
+    padding: 30px;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    font-size: 50px;
+    padding: 20px;
+    color: orange;
+    color-adjust: red;
+    text-align: center;
+    size: 20px;
+}
+#button{
+    display:inline-block;
+    text-align: left;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    border-bottom: 1px solid #4caf50;
+    color: white;
+  
+}
+  .gender{
+    display: block;
+    text-align: center;
+    padding: 30px;
+    justify-content: space-between;
+    font-size: 50px;
+    padding: 8px 0; 
+    cursor: pointer;
+    margin: 0 auto;
+    color: navy;
+}
+
+h1{
+    text-align: center;
+    font: xx-large;
+    font-size: 50px;
+    color: paleturquoise;
+    font-display: 50px;
+    border: powderblue;
+    text-align: center;
+    padding: 0rem;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all;
+    transition-duration: 10s;
+}
+
+h2{
+    font-style: italic;
+    color: maroon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bold;
+}
+
+.login-box{
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom:50%;
+    right:50%;
+    transform: translate(-50%, 50%);
+    padding-top:0;
+}
+form {
+    size: 0rem;
+    display: inline;
+    border-spacing: 0rem;
+    border-block-end-color: mediumseagreen;
+    border-bottom: midnightblue;
+}
+
+
+    body{
+     font-size:solid;
+     flex-direction: column;
+     background-image:url("https://netstorage-yen.akamaized.net/images/3o3bpd490e57t1ueo.jpg?imwidth=900");
+     background-repeat: no-repeat;
+     background-color: bisque;
+     background-position: center;
+     text-align: center;
+     background-attachment: fixed;
+     background-size: cover;
+     font-family: 'Anton', sans-serif;
+     display: flex;
+     color: white;
+     flex-grow: initial;
+     height:170vh ;
+     width: 200vh;
+    }
+
+
+    
+    .login-box,h1{
+        float: left;
+        font-size: 40px;
+        border-bottom: 6px;
+        margin-bottom: 50px;
+        
+    }
+
+    .btn{
+        width: 100%;
+        background: none;
+        border: 2px solid brown;
+        padding: 5px;
+        font-size: 24px;
+        cursor: pointer;
+        margin: 12px 0;
+        color: pink;
+    }
+
+    p{
+         clear: both;
+         color: whitesmoke darkgrey;
+         display: block;
+         font-size: 20px;
+         font-display: italic;
+         font-family: 'Times New Roman', Times, serif;
+         
+    }
